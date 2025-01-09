@@ -8,6 +8,9 @@
     box-sizing: border-box;
 }
 
+
+/* primary work  */
+
 .btn_primary{
     color: rgb(255, 255, 255);
     font-family: Inter;
@@ -30,6 +33,25 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
+}
+
+.hadding_primary{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 50px;
+    text-transform: capitalize;
+    margin: 10px 0px;
+}
+
+.subtitle_primary{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 10px 0px;
 }
 
 /* banner section desing  */
@@ -237,11 +259,12 @@
 
 
 /* holiday section start  */
-.holyday{
+.holiday{
     width: 80%;
-    background-color: antiquewhite;
+    background: linear-gradient(180.00deg, rgba(33, 33, 33, 0.1),rgba(66, 66, 66, 0) 100%);
     margin: 50px auto;
     border-radius: 16px;
+    padding-top: 20px;
 }
 .holyday_content{
     text-align: center;
@@ -271,5 +294,57 @@
     /* background-size: cover; */
     background-position: bottom;
     border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     display: flex;
+    justify-content: space-around;
 }
+.img_content img{
+    width: 533px;
+}
+.img_content1 img{
+    width: 200px;
+}
+ /* Our Awesome Portfolio section */
+ .portfolio{
+    width: 80%;
+    margin: 50px auto;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    border-radius: 16px;
+    padding: 20px;
+ }
+ .portfolio_img_container{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+ }
+ .portfolio_img_contant1 img,
+ .portfolio_img_contant2 img,
+ .portfolio_img_contant3 img {
+    width: 284px;
+    margin: 20px;
+ }
+
+ /* Subscribe Newsletter */
+ .newsletter{
+    width: 80%;
+    height: 412px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 40px auto;
+    padding: 40px;
+ }
+ .newsletter_content{
+    text-align: center;
+ }
+
+ .newsletter_content input{
+    padding: 12px 15px;
+    border-radius: 25px;
+    border: none;
+ }
+ footer{
+    width: 100%;
+    height: 400px;
+    background: rgb(7, 2, 17);
+ }
