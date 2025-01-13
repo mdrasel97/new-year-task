@@ -339,8 +339,9 @@
  }
 
  .newsletter_content input{
+    width: 40%;
     padding: 12px 15px;
-    border-radius: 25px;
+    border-radius: 25px 0px 0px 25px;
     border: none;
  }
  footer{
@@ -371,4 +372,8 @@
  }
  .icon .fa-brands{
     margin-left: 10px;
+ }
+ .footer_bottom_container{
+    display: flex;
+    justify-content: space-between;
  }
